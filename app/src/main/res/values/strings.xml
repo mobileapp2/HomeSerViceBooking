@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Perfect Punters</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="title_search">Search</string>
+    <string name="title_lead">New Lead</string>
+    <string name="title_new">New</string>
+    <string name="slogan">Assignment</string>
+    <string name="title_ongoing">Ongoing</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_menu">Menu</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="title_activity_scrollable_tabs">All Services</string>
+    <string name="title_activity_credit_tabs">Credits History</string>
+    <string name="title_activity_recharge_tabs">Recharge Wallet</string>
+    <string name="title_activity_about_tabs">About HomeServiceApp</string>
+    <string name="title_activity_alert_tabs">Alerts (0)</string>
+    <string name="title_activity_salon_women">Salon For Women</string>
+    <string name="title_activity_appointments">My Bookings</string>
+    <string name="title_activity_new_leads">New Leads</string>
+    <string name="title_activity_location">Location</string>
+    <string name="title_activity_ongoing">Ongoing</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="job_success">Job Success</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="my_desc">Doing at the sweet spot between aesthetics and elegance to give life to your brand.My opinion belong to nobody but myself.</string>
+    <string name="about_me">About Me</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="samplereview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
+    <string name="no_geocoder_available">No geocoder available</string>
+
+    <string name="fetch_address">Fetch address</string>
+
+    <string name="address_found">Address found</string>
+
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available, Please check your Internet Connection</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="slide_1_title">Salon At Home!</string>
+    <string name="slide_1_desc">The easiest way to Book Salon at your home.</string>
+
+    <string name="slide_2_title">Spa At Home</string>
+    <string name="slide_2_desc">Book easily Spa at home with no hussle.</string>
+
+    <string name="slide_3_title">Home Cleaning</string>
+    <string name="slide_3_desc">The best service for cleaning at your home.</string>
+
+    <string name="slide_4_title">Home Appliance Repair</string>
+    <string name="slide_4_desc">Book Home Appliance Repair Service at your home.</string>
+
+    <string name="slide_5_title">Laundry Service</string>
+    <string name="slide_5_desc">Book Laundry services at your home and give power to your clothes.</string>
+
+    <string name="slide_6_title">Mobile Repair Service</string>
+    <string name="slide_6_desc">Book Mobile Repair service at your home.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_activity_login_">Login_Activity</string>
+    <string name="dummy_button">Checkout</string>
+    <string name="dummy_content">Data Loading...</string>
+    <string name="perfect_punters">Perfect Punters</string>
+
+    <string name="title_activity_services_">Services_Activity</string>
+    <string name="title_home">Punters Home</string>
+    <string name="title_appointments">Appointments</string>
+    <string name="title_helpdesk">Help Desk</string>
+    <string name="title_bio">Bio.</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Perfect Punters</string>
+    <string name="nav_header_subtitle">We Are Worth</string>
+    <string name="nav_header_desc">PuntersApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Location</string>
+    <string name="menu_appointments">My Appointments</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_punters">HomeServiceApp Wallet</string>
+    <string name="menu_gift">Gift Vouchers</string>
+    <string name="menu_refer">Refer a Friend</string>
+    <string name="menu_privacy">Privacy Policy</string>
+    <string name="menu_faq">FAQs</string>
+    <string name="menu_call">Call Us</string>
+    <string name="menu_login">Login</string>
+    <string name="title_activity_services">Services</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="title_activity_service_">Service_Activity</string>
+    <string-array name="country_arrays">
+        <item>Choose City</item>
+        <item>Dehradun</item>
+        <item>Haridwar</item>
+        <item>Rishikesh</item>
+        <item>Haldwani</item>
+        <item>Nainital</item>
+    </string-array>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="description_example">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</string>
+    <string name="product_size">Size: 40</string>
+    <string name="product_color">Color: Black</string>
+    <string name="product_price">Price: 80$</string>
+    <string name="action_cart">Shopping cart</string>
+    <string name="quantity">1</string>
+    <string name="product_name">Sleek black top</string>
+    <string name="price">100 $</string>
+    <string name="remove_from_cart">Remove</string>
+    <string name="continue_shopping">Continue shopping</string>
+    <string name="checkout">Checkout</string>
+    <string name="sub_total">Sub total:</string>
+    <string name="server_error">Failed to payment information to server</string>
+    <string name="successful_payment">Payment successfully uploaded</string>
+    <string name="pay_with_paypal">Pay with PayPal</string>
+    <string name="title_activity_sub_category">SubCategoryActivity</string>
+    <string name="title_activity_check_out">CheckOutActivity</string>
+    <string name="title_activity_otp">OtpActivity</string>
+    <string name="title_activity_customer_registration">CustomerRegistrationActivity</string>
+    <string name="facebook_app_id">524809221538913</string>
+    <string name="fb_login_protocol_scheme">fb524809221538913</string>
+</resources>

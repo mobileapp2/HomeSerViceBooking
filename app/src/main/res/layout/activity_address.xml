@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/addressToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="70dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="start"
+                    android:gravity="start"
+                    android:layout_marginBottom="70dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/proximanovaregular"
+                        android:text="Street Address 1"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="20sp"/>
+
+                    <EditText
+                        android:singleLine="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_text_middle"
+                        android:hint="Street Adress"
+                        android:inputType="textPersonName"
+                        android:padding="15dp"
+                        android:id="@+id/addressStreet1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/proximanovaregular"
+                        android:text="Street Address 2"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="20sp"/>
+
+                    <EditText
+                        android:text=""
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_text_middle"
+                        android:hint="Street Adress 2"
+                        android:inputType="textPersonName"
+                        android:padding="15dp"
+
+                        android:singleLine="true"
+                        android:id="@+id/addressStreet2"/>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/proximanovaregular"
+                        android:text="Landmark"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000000"
+                        android:textSize="20sp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_text_middle"
+                        android:hint="landmark"
+                        android:inputType="textPersonName"
+                        android:padding="15dp"
+
+                        android:singleLine="true"
+                        android:id="@+id/addresslandmark"/>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/proximanovaregular"
+                        android:text="City"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000000"
+                        android:textSize="20sp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_text_middle"
+                        android:hint="Street Adress"
+                        android:singleLine="true"
+                        android:inputType="textPersonName"
+                        android:padding="15dp"
+                        android:id="@+id/addressCity"/>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/proximanovaregular"
+                        android:text="State"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000000"
+                        android:textSize="20sp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_text_middle"
+                        android:hint="State"
+                        android:inputType="textPersonName"
+                        android:padding="15dp"
+                        android:singleLine="true"
+                        android:id="@+id/addressState"/>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/proximanovaregular"
+                        android:text="Country"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000000"
+                        android:textSize="20sp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_text_middle"
+                        android:hint="Country"
+                        android:inputType="textPersonName"
+                        android:padding="15dp"
+                        android:singleLine="true"
+                        android:id="@+id/addressCountry"/>
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                android:weightSum="2"
+                android:background="#f2f2f2">
+
+
+
+
+                <LinearLayout
+                    android:background="@drawable/bottom_drawable"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:id="@+id/addressConfirmButton"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=" Confirm &#8594; "
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="#fff"
+                            android:textSize="16sp"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

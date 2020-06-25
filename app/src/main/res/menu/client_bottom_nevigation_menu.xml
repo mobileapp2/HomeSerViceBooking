@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/ic_android"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/ic_books"
+        android:icon="@drawable/ic_ongoing_white_24dp"
+        android:title="My Bookings"
+        />
+    <item
+        android:id="@+id/ic_center_focus"
+        android:icon="@drawable/ic_person_white_24dp"
+        android:title="Profile"
+        />
+    <item
+        android:id="@+id/ic_backup"
+        android:icon="@drawable/ic_shopping_cart_white_24dp"
+        android:title="Cart"
+        />
+
+
+
+
+</menu>

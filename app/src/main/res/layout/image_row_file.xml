@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/bannerImages"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="4dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/salon_banner" />
+
+</LinearLayout>

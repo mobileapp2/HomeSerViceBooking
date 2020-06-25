@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.designtech9studio.puntersapp"
+    android:versionCode="1"
+    android:versionName="1.1">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.BIND_VOICE_INTERACTION"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme.Base"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.SubCategorySearch"></activity>
+        <activity android:name=".Activity.VendorWiseActivity"></activity>
+        <activity android:name=".Activity.SetAddress" />
+        <activity android:name=".Activity.VendorCoinOnlinePayment" />
+        <activity android:name=".Activity.VendorOtpActivity" />
+        <activity android:name=".Activity.VendorAddressActivity" />
+        <activity android:name=".Activity.FeedBackActivity" />
+        <activity android:name=".Activity.SelectModeOfPayment" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".Activity.MySchedule" />
+        <activity android:name=".Activity.AddressActivity" />
+        <activity
+            android:name=".Activity.CustomerRegistrationActivity"
+            android:label="@string/title_activity_customer_registration"
+            android:theme="@style/MyMaterialTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.OtpActivity"
+            android:label="@string/title_activity_otp"
+            android:theme="@style/MyMaterialTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.CheckOutActivity"
+            android:label="@string/title_activity_check_out"
+            android:theme="@style/MyMaterialTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.SubCategoryActivity"
+            android:label="@string/title_activity_sub_category"
+            android:theme="@style/MyMaterialTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.BottomNavigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Cleaning_List_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Service_List_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.List_Activity"
+            android:label="Salon For Women"
+            android:parentActivityName=".Activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Cleaning_Service_Group"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Service_Group"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Salon_Women_Group"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ClientHomepageActivity"
+            android:label="@string/title_activity_new_leads" />
+        <activity
+            android:name=".Activity.LocationActivity"
+            android:label="@string/title_activity_location"
+            android:parentActivityName=".Activity.ClientHomepageActivity"
+            android:theme="@style/MyMaterialTheme" />
+
+        <service
+            android:name=".Activity.FetchAddressIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name=".Activity.VendorNewLeadActivity"
+            android:label="@string/title_activity_new_leads"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.VendorOngoingActivity"
+            android:label="@string/title_activity_ongoing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.VendorProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.VendorMenuActivity"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.OrderActivityWomen"
+            android:parentActivityName=".Activity.Salon_Women_Group"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name=".Activity.Shoping_Cart_Activity" />
+        <activity
+            android:name=".Activity.Vendor_Activity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name=".Activity.Vendor_Details" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.AllServices"
+            android:label="@string/title_activity_scrollable_tabs"
+            android:parentActivityName=".Activity.HomeActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".Activity.CreditHistoryActivity"
+            android:label="@string/title_activity_credit_tabs"
+            android:parentActivityName=".Activity.VendorNewLeadActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".Activity.Vendor_Recharge_Wallet"
+            android:label="@string/title_activity_recharge_tabs"
+            android:parentActivityName=".Activity.CreditHistoryActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".Activity.ClientProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:parentActivityName=".Activity.ClientHomepageActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".Activity.ClientAboutActivity"
+            android:label="@string/title_activity_about_tabs"
+            android:parentActivityName=".Activity.ClientProfileActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".Activity.VendorAlertActivity"
+            android:label="@string/title_activity_alert_tabs"
+            android:parentActivityName=".Activity.VendorNewLeadActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".View.CartActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".Fragment.OrderActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.MyAppointments"
+            android:label="@string/title_activity_appointments"
+            android:parentActivityName=".Activity.HomeActivity" />
+        <activity
+            android:name=".Activity.RegistrationActivity"
+            android:parentActivityName=".Activity.HomeActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".Activity.Vendor_SignIn"
+            android:parentActivityName=".Activity.HomeActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".Activity.Salon_Women"
+            android:label="@string/title_activity_salon_women"
+            android:parentActivityName=".Activity.HomeActivity"
+            android:theme="@style/MyMaterialTheme" /> <!-- Payment Gateway Meta Data -->
+        <meta-data
+            android:name="instamojo.orderauth.url"
+            android:value="https://www.homesalon.in/access_tocken.php" />
+    </application>
+
+</manifest>

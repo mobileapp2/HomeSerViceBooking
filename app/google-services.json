@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "662902547146",
+    "firebase_url": "https://homeservices-1587505161563.firebaseio.com",
+    "project_id": "homeservices-1587505161563",
+    "storage_bucket": "homeservices-1587505161563.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662902547146:android:7517bebf856152f8d6ca33",
+        "android_client_info": {
+          "package_name": "com.designtech9studio.puntersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662902547146-me8j18jrundrutdpeje5bfd9800bdi42.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.designtech9studio.puntersapp",
+            "certificate_hash": "9f56a8f73b7ad545a041b4c447cec84a04c2c4fb"
+          }
+        },
+        {
+          "client_id": "662902547146-ckabmg8pu5e77t7v62s2pcdkce3ii5sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZz2Mq7tU-mrWCyUIrYGrO8tPRsK0P9jQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662902547146-ckabmg8pu5e77t7v62s2pcdkce3ii5sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
